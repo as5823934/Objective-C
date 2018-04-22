@@ -1,5 +1,5 @@
 # Objective-C
-Cornerstron school Assignments
+Cornerstone school Assignments
 1. String manipulation
 2. Boxes
 3. Maths(part 1)
