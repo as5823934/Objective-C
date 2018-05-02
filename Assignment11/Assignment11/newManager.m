@@ -11,15 +11,15 @@
 @implementation newManager
 
 - (BOOL)kitchen:(Kitchen *)kitchen shouldMakePizzaOfSize:(PizzaSize)size andToppings:(NSArray *)toppings{
-    return arc4random_uniform(2) == 1;
+    return YES;
 }
 
 - (BOOL)kitchenShouldUpgradeOrder:(Kitchen *)kitchen{
-    return arc4random_uniform(2) == 1;
-};
+    return YES;
+}
 
 - (void)kitchenDidMakePizza:(Pizza *)pizza{
-    
-};
+    NSLog(@"Thanks for comming!");
+}
 
 @end

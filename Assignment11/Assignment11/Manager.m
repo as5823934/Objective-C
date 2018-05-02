@@ -11,15 +11,20 @@
 @implementation Manager
 
 - (BOOL)kitchen:(Kitchen *)kitchen shouldMakePizzaOfSize:(PizzaSize)size andToppings:(NSArray *)toppings{
-    return arc4random_uniform(2) == 1;
+    for (int i = 0; i < toppings.count; i++){
+        if ([[toppings objectAtIndex: i] isEqualToString:@"anchovy"]) {
+            return NO;
+        }
+    }
+    return YES;
 }
 
 - (BOOL)kitchenShouldUpgradeOrder:(Kitchen *)kitchen{
-    return arc4random_uniform(2) == 1;
-};
+    return NO;
+}
 
 - (void)kitchenDidMakePizza:(Pizza *)pizza{
     
-};
+}
 
 @end

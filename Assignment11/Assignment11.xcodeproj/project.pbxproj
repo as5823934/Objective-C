@@ -41,6 +41,7 @@
 		0F01C8C22093D30D003A5F1E /* Manager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Manager.m; sourceTree = "<group>"; };
 		0F01C8C42093D7DC003A5F1E /* newManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = newManager.h; sourceTree = "<group>"; };
 		0F01C8C52093D7DC003A5F1E /* newManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = newManager.m; sourceTree = "<group>"; };
+		0F90C122209A6C48002B2853 /* KichenDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KichenDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +85,7 @@
 				0F01C8C22093D30D003A5F1E /* Manager.m */,
 				0F01C8C42093D7DC003A5F1E /* newManager.h */,
 				0F01C8C52093D7DC003A5F1E /* newManager.m */,
+				0F90C122209A6C48002B2853 /* KichenDelegate.h */,
 				0F01C8B92093BAC1003A5F1E /* PizzaRestaurant-Prefix.pch */,
 			);
 			path = Assignment11;

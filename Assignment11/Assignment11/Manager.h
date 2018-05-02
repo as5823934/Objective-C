@@ -7,11 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Kitchen.h"
-#import "Pizza.h"
+#import "KichenDelegate.h"
 
-
-@interface Manager : NSObject <KitchenDelegate>
+@interface Manager : NSObject <KichenDelegate>
 
 - (BOOL)kitchen:(Kitchen *)kitchen shouldMakePizzaOfSize:(PizzaSize)size andToppings:(NSArray *)toppings;
 - (BOOL)kitchenShouldUpgradeOrder:(Kitchen *)kitchen;
